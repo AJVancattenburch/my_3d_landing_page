@@ -1,28 +1,34 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  webArt,
+  reactLogo,
+  threejs,
+  fullStack,
   javascript,
-  typescript,
   html,
   css,
+  nextjs,
   reactjs,
-  redux,
+  vuejs,
   tailwind,
   nodejs,
+  expressjs,
   mongodb,
-  git,
   figma,
-  docker,
+  aspnet,
+  csharp,
+  mysql,
+  bootstrap,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  codeworks,
+  wildlearner,
+  grasshopper,
+  usMirror,
+  intermountain,
+  
+  cpuniverse,
+  gamePursuit,
+  threaditAI,
+  threejsPlanet,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +48,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Web Artist",
+    icon: webArt,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Full Stack Developer",
+    icon: fullStack,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "React Developer",
+    icon: reactLogo,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Three JS Developer",
+    icon: threejsPlanet,
   },
 ];
 
@@ -73,16 +79,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue JS",
+    icon: vuejs,
   },
   {
     name: "Tailwind CSS",
@@ -101,70 +107,86 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "ASP.NET",
+    icon: aspnet,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "mySQL",
+    icon: mysql,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "C#",
+    icon: csharp,
+  },
+];
+
+const education = [
+  {
+    title: "Full Stack Software Development",
+    school_name: "CodeWorks",
+    icon: codeworks,
+    iconBg: "#383E56",
+    date: "March 2023 - July 2023",
+    points: [
+      "Completed rigorous Full-Stack course that utilizes the latest industry standards in Software Development.",
+      "Exposure to 1000+ hours of additional hands-on coding experience.",
+      "Developed a robust foundation in software development through immersive projects, collaborative coding challenges, and in-depth coursework, fostering the ability to tackle complex coding tasks effectively and collaboratively.",
+      "Worked in professional environments centered on real-world industry experience and creative problem solving.",
+      "Voted Idaho's #1 Specialty School."
+    ],
+  },
+  {
+    title: "Earned Certifications",
+    school_name: "Wild Learner",
+    icon: wildlearner,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - June 2023",
+    wlPointHTML: "Intro to HTML5",
+    wlPointCSS: "Intro to CSS3",
+    wlPointJS: "Intro to JS",
+    wlPointAdvJS: "Advanced JS",
+    wlPointReact: "Intro to React",
+    wlPointVue: "Intro to Vue",
+    wlPointNode: "Intro to Node.js",
+    wlPointExpress: "Intro to Express",
+  },
+  {
+    title: "Earned Certifications",
+    school_name: "Grasshopper",
+    icon: grasshopper,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "JAVASCRIPT - Fundamentals, Fundamentals II, Array Methods, Animations I, Animations II",
+    ],
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Glazier",
+    company_name: "US Mirror & Glass",
+    icon: usMirror,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Apr 2021 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "PROBLEM-SOLVING - Constantly analyzed complex situations to find creative solutions.",
+      "TEAM COLLABORATION - Experience working collaboratively with a team that delivers results. As well as with outside sources like Project Coordinators, Designers, and Clients in the glazing industry.",
+      "ATTENTION TO DETAIL - I have an inexplicable meticulousness in ensuring precise measurements, cuts, and installations that I adhered to consistently and carried with me throughout my career.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Sales / Route Manager",
+    company_name: "Intermountain Auto Glass",
+    icon: intermountain,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2016 - Dec 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "TEAM LEADERSHIP - I was responsible for managing a team of 5-10 employees. I was in charge of scheduling, training, and ensuring that all employees were performing at a high level.",
+      "TEAM COLLABORATION - I worked closely with staff to ensure mental health and wellness and to ensure that they were performing at a high level.",
+      "PARTNERSHIP DEVELOPMENT - Developed and maintained relationships with our partners. Also was responsible for ensuring that all partners were satisfied with their experience.",
+      "INVENTORY MANAGEMENT - Oversaw inventory for the office and shop, ensuring timely access to essential resources, demonstrating keen organizational skills.",
+      "TRANSFERRABLE SKILLS - These experiences contributed to my ability problem-solve, communicate effectively, and work collaboratively with others."
     ],
   },
 ];
@@ -198,68 +220,100 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CPUniverse",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+      "'CPUniverse' is a cutting-edge metaverse mock platform that offers users the opportunity to explore a vast digital universe comprised of interconnected realms and virtual worlds.  The application is built as a design template to allows users to explore and/or various virtual worlds and invite others to join them once further functionality is implemented.",
+      tags: [
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "violet-text-gradient",
+      },
+    ],
+    image: cpuniverse,
+    source_code_link: "https://github.com/AJVancattenburch/CPUniverse",
+  },
+  {
+    name: "Game Pursuit",
+    description:
+      "Fueled by a diverse set of skills and experiences, our team harnessed the power of Vue.js, Node.js, Express, and much more to architect a user-friendly hub for gamers to register, collect badges/sponsorships, flaunt their prowess, and initiate exhilarating tournaments that revolves around a token-based rewards system that incentivizes users to play more and earn more.",
+    tags: [
+      {
+        name: "vuejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "postman",
+        color: "orange-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gamePursuit,
+    source_code_link: "https://github.com/ChanthaKammer/capstone",
   },
   {
-    name: "Job IT",
+    name: "ThreadIt AI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "ThreadIt is a cutting-edge platform that allows users to upload images of clothing items and receive recommendations for other items that pair well with their selection.  The application is built using a React front-end and a Node.js/Express.js back-end that utilizes the OpenAI API to generate recommendations based on the user's input.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "openaiapi",
+        color: "orange-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: threaditAI,
+    source_code_link: "https://github.com/AJVancattenburch/ThreadItAI",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, education, experiences, testimonials, projects };

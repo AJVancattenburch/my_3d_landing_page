@@ -40,7 +40,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               <img
                 src={github}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain"  
+                className="w-full h-full object-contain"
+                title="View Source Code" 
               />
             </div>
           </div>
@@ -59,7 +60,6 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           ))}
         </div>
       </Tilt>
-      test
     </motion.div>
   )
 }
