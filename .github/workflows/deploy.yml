@@ -1,10 +1,12 @@
 name: Deploy my_3d_landing_page
 
-# Define when the workflow should run (on each push to the main branch).
+# Define when the workflow should run (on each push to the main branch, but only when specific files change).
 on:
   push:
     branches:
-      - main  # Replace with your main branch name if different
+      - main
+    paths:
+      - '**/*'  # This will run when any file changes
 
 jobs:
   deploy:
@@ -34,4 +36,3 @@ jobs:
           environment_name: My3dlandingpage-env
           region: us-west-2
           deployment_package: "C:\\source\\react\\my_3d_landing_page.zip"
-
