@@ -284,7 +284,7 @@ const projects = [
   {
     name: "ThreadIt AI",
     description:
-      "ThreadIt is a cutting-edge platform that allows users to upload images of clothing items and receive recommendations for other items that pair well with their selection.  The application is built using a React front-end and a Node.js/Express.js back-end that utilizes the OpenAI API to generate recommendations based on the user's input.",
+      "ThreadIt is a cutting-edge platform that allows users to upload images of clothing items and receive recommendations for other items that pair well with their selection.  The application is built using a React front-end and a Node.js/Express.js back-end that utilizes three.js to render realistic 3D models, and the OpenAI API to generate recommendations based on the user's input.",
     tags: [
       {
         name: "reactjs",
