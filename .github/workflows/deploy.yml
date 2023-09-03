@@ -28,7 +28,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to AWS
-        uses: AJVancattenburch/my_3d_landing_page@v1.0.0
+        uses: aws-actions/deploy-to-elastic-beanstalk@v1
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
