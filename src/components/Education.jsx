@@ -26,7 +26,7 @@ const EducationCard = ({ education }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Adds a listener for changes to screen size below 786px
+    // Adds a listener for changes to screen size below 768px
     const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     // Sets initial value of `isMobile` state variable
@@ -37,7 +37,7 @@ const EducationCard = ({ education }) => {
       setIsMobile(e.matches);
     };
 
-    // Adda callback as a listener for changes to media query
+    // Add a callback as a listener for changes to media query
     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
     // Removes listener when the component is unmounted
@@ -213,4 +213,4 @@ EducationCard.propTypes = {
   education: PropTypes.object.isRequired,
 }
 
-export default SectionWrapper(Education, "");
+export default SectionWrapper(Education, "education");

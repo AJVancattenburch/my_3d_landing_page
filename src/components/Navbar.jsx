@@ -48,6 +48,7 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li
               key={link.id}
+              title={`My ${link.title} Section`}
               className={`${
                 active === link.title ? 'text-white' : 'text-secondary'
               } hover:text-white text-[18px] font-medium curser-pointer`}

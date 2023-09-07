@@ -37,6 +37,10 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "education",
+    title: "Education",
+  },
+  {
     id: "work",
     title: "Work",
   },
@@ -182,9 +186,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2016 - Dec 2020",
     points: [
-      "TEAM LEADERSHIP - I was responsible for managing a team of 5-10 employees. I was in charge of scheduling, training, and ensuring that all employees were performing at a high level.",
-      "TEAM COLLABORATION - I worked closely with staff to ensure mental health and wellness and to ensure that they were performing at a high level.",
-      "PARTNERSHIP DEVELOPMENT - Developed and maintained relationships with our partners. Also was responsible for ensuring that all partners were satisfied with their experience.",
+      "TEAM LEADERSHIP - I was responsible for managing a team of 5-10 employees. I was in charge of scheduling and ensuring that all employees were performing at a high level.",
+      "TEAM COLLABORATION - I worked closely with staff to ensure mental health and wellness.",
+      "PARTNERSHIP DEVELOPMENT - Developed and maintained relationships with our partners. Responsible for ensuring that all partners were satisfied with their experience.",
       "INVENTORY MANAGEMENT - Oversaw inventory for the office and shop, ensuring timely access to essential resources, demonstrating keen organizational skills.",
       "TRANSFERRABLE SKILLS - These experiences contributed to my ability problem-solve, communicate effectively, and work collaboratively with others."
     ],
@@ -194,15 +198,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      `AJ’s expertise in UI - especially 3D web animations really sets him apart. He has a natural talent for creating immersive & interactive 3D elements that captivate and engage users. He helped me take a curriculum I was writing for a teen JavaScript summer camp by using his creativity to add animations, making students excited to code.`,
+    newLine:
+      `Beyond his technical skills, AJ is a pleasure to work with. He is a team player who, always willing to collaborate and share his knowledge with others. His passion for web development and design is contagious, and he inspires his peers to strive for excellence.`,
+    name: "Jeanne Allen",
+    designation: "T.A.",
+    company: "CodeWorks",
+    image: "https://avatars.githubusercontent.com/u/112727701?v=4",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "AJ is a talented web developer who is passionate about his work. He is a great communicator and always goes above and beyond to ensure that his clients are satisfied. I've never met a web developer who truly cares about their clients' success like AJ does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -210,7 +216,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After AJ optimized our website, our traffic increased by 50%. We can't thank him enough! He's a pleasure to work with and we look forward to working with him again in the future.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
